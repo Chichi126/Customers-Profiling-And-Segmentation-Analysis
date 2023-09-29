@@ -24,10 +24,11 @@
 ![image](https://github.com/Chichi126/Customers-Profiling-And-Segmentation-Analysis/assets/140970592/449be067-1fd0-4f53-87a8-b07c762d2e4c)
 
 
-This dataset is one of the historical sales of supermarket company which has recorded in 3 different branches for 3 months data. 
+This dataset is one of the historical sales of supermarket company, which was recorded from 3 different branches for 3 months data. 
 Gaining knowledge about consumer behavior, product performance, and sales trends is the primary goal of this analysis, which can then be used to give better-informed information and help in the decision-making of the company. The dataset was gotten from [Kaggle](url)
 
-The dataset contains 1000 rows and 19 columns 
+
+The dataset contaied 1000 rows and 19 columns 
 
 Data Dictionary
 
@@ -72,7 +73,7 @@ Data Dictionary
 
 # Business Problem
 
-The organization seeks to leverage consumer profiling and segmentation methodologies as part of its business analysis initiatives to enhance marketing strategies and deliver personalized experiences to its clientele thereby fostering more meaningful and profitable customer relationships.
+The organization is seeking to leverage consumer profiling and segmentation methodologies as part of its business analysis initiatives to enhance marketing strategies and deliver personalized experiences to its clientele, thereby fostering more meaningful and profitable customer relationships.
 
 ![image](https://github.com/Chichi126/Customers-Profiling-And-Segmentation-Analysis/assets/140970592/7e7446e7-1906-4074-9f53-0fda79825f65)
 
@@ -92,12 +93,22 @@ The project seeks to accomplish the following goals:
 
 # Methodology
 
-The analysis methodology employed in this study encompasses a multi-faceted approach leveraging tools such as Excel, SQL (Structured Query Language), and Power BI (Business Intelligence). To begin, the dataset was initially imported into Excel, where preliminary data cleansing and exploration took place. 
+The analysis methodology I employed in this study encompasses a multi-faceted approach leveraging tools as Excel, SQL (Structured Query Language), and Power BI (Business Intelligence). 
 
-  **Excel:** Excel's data manipulation features were instrumental in addressing missing values, however I did not encouter   any missing values or outliers.
+ 
+  **Excel:** To begin, I first imported the dataset into Excel, where preliminary data cleansing and exploration took place as I used manipulation features which were instrumental in addressing missing values, however I did not encouter   any missing values or outliers.
   
- I Created and extracted a new columns from the Date column, namely Month and Day columns.
 
+ 
+ I Created and extracted a new columns from the Date column, namely Month and Day columns.
+ 
+ ![image](https://github.com/Chichi126/Customers-Profiling-And-Segmentation-Analysis/assets/140970592/f73b664f-daf7-4057-86c6-d42dee346265)
+ 
+How I checked for missing/blank rows
+
+![image](https://github.com/Chichi126/Customers-Profiling-And-Segmentation-Analysis/assets/140970592/aed0a580-d295-4410-8eec-078f7900e736)
+
+Created a table with column header
   ![image](https://github.com/Chichi126/Customers-Profiling-And-Segmentation-Analysis/assets/140970592/67e2cc37-0665-44ec-bf9d-0a26bea0ab2e) 
   
   **SQL:**  was harnessed to perform more complex data transformations and to extract relevant subsets of data from the original dataset. SQL queries enabled the aggregation of data, joining of multiple tables, and computation of key metrics critical to the analysis. 
