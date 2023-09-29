@@ -10,6 +10,15 @@ SELECT Gender, COUNT(Gender) As Total_Customer
 FROM supermarket_sales
 GROUP BY Gender
 
+--- Calculate the percentage of each gender 
+SELECT
+    Gender,
+    COUNT(*) AS TotalCustomers,
+    (COUNT(*) * 100.0 / SUM(COUNT(*)) OVER ()) AS PercentageOfTotalCustomers
+FROM
+    [dbo].[supermarket_sales]
+GROUP BY
+    Gender;
 
 -- Calculate the total sales revenue
 SELECT Gender, ROUND(SUM(Total), 2) AS TotalSalesRevenue 
@@ -95,3 +104,29 @@ GROUP BY Payment;
  FROM supermarket_sales
  GROUP BY Gender
  ORDER BY Total_GIncome DESC
+
+ -- Analyze monthly Revenues from each gender
+SELECT Gender,
+    MONTH(Date) AS SalesMonth, 
+    SUM(Total) AS TotalSales
+FROM 
+    [dbo].[supermarket_sales]
+GROUP BY 
+    MONTH(Date), Gender
+ORDER BY 
+    TotalSales desc;
+
+
+--- Customer Loyalty
+SELECT
+    Gender,
+    [Customer_type] AS CustomerType,
+    ROUND(AVG(Rating),2) AS AverageRating
+FROM
+    [dbo].[supermarket_sales]
+GROUP BY
+    Gender,
+    [Customer_type]
+ORDER BY
+    Gender,
+    CustomerType;
