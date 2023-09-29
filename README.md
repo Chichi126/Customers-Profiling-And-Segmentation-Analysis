@@ -85,7 +85,7 @@ The project seeks to accomplish the following goals:
 
 1. Develop a comprehensive strategy for acquiring in-depth customer insights and segmenting them into distinct categories. 
 
-2. Employ these methodologies to enhance the store's operational efficiency and draw a larger customer base that resonates with and appreciates its product offerings.
+2. Employ these methodologies to enhance the store's operational efficiency and draw a larger customer base that resonates   with and appreciates its product offerings.
 
 ![image](https://github.com/Chichi126/Customers-Profiling-And-Segmentation-Analysis/assets/140970592/2cd721d0-0583-410a-acc8-5801a92a283c)
 
@@ -94,7 +94,9 @@ The project seeks to accomplish the following goals:
 
 The analysis methodology employed in this study encompasses a multi-faceted approach leveraging tools such as Excel, SQL (Structured Query Language), and Power BI (Business Intelligence). To begin, the dataset was initially imported into Excel, where preliminary data cleansing and exploration took place. 
 
-  **Excel:** Excel's data manipulation features were instrumental in addressing missing values, outliers, and formatting inconsistencies. Creating and extracting of new columns from the Date column, namely Month and Day columns.
+  **Excel:** Excel's data manipulation features were instrumental in addressing missing values, however I did not encouter   any missing values or outliers.
+  
+ I Created and extracted a new columns from the Date column, namely Month and Day columns.
 
   ![image](https://github.com/Chichi126/Customers-Profiling-And-Segmentation-Analysis/assets/140970592/67e2cc37-0665-44ec-bf9d-0a26bea0ab2e) 
   
@@ -112,42 +114,42 @@ The analysis methodology employed in this study encompasses a multi-faceted appr
 
 1. **Customer Demographics:** 
 
-The dataset breaks down customer demographics by type and gender. Among members, there are 261 females and 240 males. Among non-members (normal customers), there are 240 females and 259 males.
+     The dataset breaks down customer demographics by type and gender. Among members, there are 261 females and 240 males.      Among non-members (normal customers), there are 240 females and 259 males.
 
-2. **Gender Distribution:** The dataset exhibits a near-even distribution of male and female customers, with each gender accounting for approximately half of the customer base. This balance presents an opportunity to tailor marketing strategies to both genders effectively.
+2. **Gender Distribution:** The dataset exhibits a near-even distribution of male and female customers, with each gender       accounting for approximately half of the customer base. This balance presents an opportunity to tailor marketing           strategies to both genders effectively.
 
 
 3. **Product Sales by Category:**
 
-"Food and Beverages" and "Sports and Travel" are the highest-grossing categories, with revenues of $56,144.84 and $55,122.83, respectively. "Health and Beauty" had the lowest revenue at $49,193.74, while "Home and Lifestyle," "Fashion Accessories," and "Electronic Accessories" also performed well.
+    "Food and Beverages" and "Sports and Travel" are the highest-grossing categories, with revenues of $56,144.84 and          $55,122.83, respectively. "Health and Beauty" had the lowest revenue at $49,193.74, while "Home and Lifestyle,"            "Fashion   Accessories," and "Electronic Accessories" also performed well.
 
 
 4. **Monthly Sales Revenue And Sales by Gender:**
-Sales performance varies by month, with January showing strong sales for both genders. However, male customers recorded the highest sales in March, while February saw a dip in sales for both genders. Seasonal trends may impact purchasing behavior.
-Female customers consistently showed strong sales in all three months, with the highest monthly revenue in January.
-- Male customers had lower sales in February but recovered in March, surpassing female sales for that month.
-- Seasonal or monthly variations may impact sales differently for each gender, suggesting the importance of tailored marketing strategies for different times of the year
+    Sales performance varies by month, with January showing strong sales for both genders. However, male customers             recorded the highest sales in March, while February saw a dip in sales for both genders. Seasonal trends may impact        purchasing behavior.
+    Female customers consistently showed strong sales in all three months, with the highest monthly revenue in January.
+    - Male customers had lower sales in February but recovered in March, surpassing female sales for that month.
+    - Seasonal or monthly variations may impact sales differently for each gender, suggesting the importance of tailored       marketing strategies for different times of the year
 
 
 5. **Customer Loyalty Analysis:**
 
-Both male and female Members Customer_type have the same average rating of 6.94, indicating a similar level of satisfaction among members regardless of gender.
+    Both male and female Members Customer_type have the same average rating of 6.94, indicating a similar level of             satisfaction among members regardless of gender.
   
-- Female Normal Customers have a slightly higher average rating than female members (6.99 vs. 6.94), suggesting that normal female customers may be slightly more satisfied.
+    - Female Normal Customers have a slightly higher average rating than female members (6.99 vs. 6.94), suggesting that       normal female customers may be slightly more satisfied.
   
-- Male normal customers have the highest average rating (7.02), indicating a high level of satisfaction among male customers who are not members
+    - Male normal customers have the highest average rating (7.02), indicating a high level of satisfaction among male         customers who are not members
 
   
 6. **Product Distribution Across Gender:**
 
-Female customers dominate the dataset, indicating more transactions by females. In specific product categories:
-- "Fashion accessories" are more popular among females.
+    Female customers dominate the dataset, indicating more transactions by females. In specific product categories:
+    - "Fashion accessories" are more popular among females.
   
-- Both genders show significant interest in "Food and beverages" and "Sports and travel."
+    - Both genders show significant interest in "Food and beverages" and "Sports and travel."
 
-- "Health and beauty" products are more popular among males.
+    - "Health and beauty" products are more popular among males.
   
-- "Electronic accessories" and "Home and lifestyle" products are relatively evenly distributed between genders.
+    - "Electronic accessories" and "Home and lifestyle" products are relatively evenly distributed between genders.
 
 
 # Recommendation
