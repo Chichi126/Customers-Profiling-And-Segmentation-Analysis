@@ -111,11 +111,11 @@ How I checked for missing/blank rows
 Created a table with column header
   ![image](https://github.com/Chichi126/Customers-Profiling-And-Segmentation-Analysis/assets/140970592/67e2cc37-0665-44ec-bf9d-0a26bea0ab2e) 
   
-  **SQL:**  was harnessed to perform more complex data transformations and to extract relevant subsets of data from the original dataset. SQL queries enabled the aggregation of data, joining of multiple tables, and computation of key metrics critical to the analysis. 
+  **SQL:**  SQL queries were employed to facilitate and execute intricate data transformations, as well as to extract specific, meaningful subsets of data from the original dataset. These queries allowed for the consolidation of data, the combination of multiple tables, and the calculation of essential metrics crucial for the analysis. 
   
   
   
-  **Power BI:**  was utilized for advanced visualization and reporting, enabling the creation of insightful dashboards and interactive visuals to communicate findings effectively. The combination of these tools facilitated a comprehensive analysis, ensuring data integrity and yielding actionable insights to drive informed decision-making.
+  **Power BI:**  Power BI was employed for advanced data visualization and reporting, which empowered the creation of informative dashboards and interactive visuals to effectively convey findings. The synergy of these tools supported a thorough analysis, maintaining data integrity and generating actionable insights to guide well-informed decision-making.
 
  ![image](https://github.com/Chichi126/Customers-Profiling-And-Segmentation-Analysis/assets/140970592/fc167e35-7888-4c9e-b313-11fa80eae413)
  
