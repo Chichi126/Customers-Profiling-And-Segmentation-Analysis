@@ -28,7 +28,7 @@ This dataset is one of the historical sales of supermarket company, which was re
 Gaining knowledge about consumer behavior, product performance, and sales trends is the primary goal of this analysis, which can then be used to give better-informed information and help in the decision-making of the company. The dataset was gotten from [Kaggle](url)
 
 
-The dataset contaied 1000 rows and 19 columns 
+The dataset contained 1000 rows and 19 columns 
 
 Data Dictionary
 
